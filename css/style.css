@@ -66,3 +66,26 @@ body {
   display: flex;
   gap: 0 20px;
 }
+.header .container .nav .basket--on {
+  position: relative;
+}
+.header .container .nav .basket--on span {
+  font-size: 11px;
+  width: 15px;
+  height: 15px;
+  background-color: #000;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  bottom: 0;
+  right: -2px;
+}
