@@ -89,3 +89,47 @@ body {
   bottom: 0;
   right: -2px;
 }
+
+.top {
+  min-height: calc(100vh - 81px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+.top .title {
+  padding-top: 16%;
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+.top .subtitle {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+.top .top__text {
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+.top .buy-btn {
+  cursor: pointer;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC10D8), to(rgba(80, 0, 250, 0.93)));
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  text-transform: uppercase;
+  padding: 1px;
+}
+.top .buy-btn .buy-btn__text {
+  color: #F6F4F5;
+  padding: 20px 110px;
+}
+.top .buy-btn .buy-btn__price {
+  background-color: #F6F4F5;
+  padding: 20px 105px;
+}
+.top .buy__text {
+  padding-top: 6px;
+  font-size: 13px;
+}
